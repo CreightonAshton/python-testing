@@ -1,3 +1,8 @@
-Python 3.4.1 (v3.4.1:c0e311e010fc, May 18 2014, 10:45:13) [MSC v.1600 64 bit (AMD64)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> 
+def loop(x):
+	i = 0
+	while i < x:
+		print ("Hello World")
+		i+=1
+
+num = int(input("How many times through the loop?"))
+loop(num)
